@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😈 Scary Prank 😈</title>
+    <style>
+        body {
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body onload="playScarySound()">
+    <h1>Gotcha! 😈</h1>
+    <img src="scary-image.jpg" alt="Scary Image">
+    <audio id="scary-audio" src="scary-sound.mp3"></audio>
+    
+    <script>
+        function playScarySound() {
+            document.getElementById('scary-audio').play();
+        }
+    </script>
+</body>
+</html>
